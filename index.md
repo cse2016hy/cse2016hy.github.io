@@ -1,4 +1,4 @@
-# CSE2016
+## CSE2016
 
 You can use the [editor on GitHub](https://github.com/cse2016hy/cse2016hy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
