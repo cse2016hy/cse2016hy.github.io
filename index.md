@@ -1,10 +1,3 @@
----
-layout: default
-title: 'CSE2016: 프로그램 설계 방법론'
----
-
-## Welcome to GitHub Pages
-
 You can use the [editor on GitHub](https://github.com/cse2016hy/cse2016hy.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
