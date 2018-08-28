@@ -1,6 +1,6 @@
-## CSE2016 (Programming Methodology)
+## CSE2016
 
-[이우석 (Woosuk Lee)](http://ropas.snu.ac.kr/~wslee)
+[이우석 (Woosuk Lee)](http://ropas.snu.ac.kr/~wslee) / 
 [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 장소 및 시간 
