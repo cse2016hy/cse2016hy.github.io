@@ -14,8 +14,8 @@
 ### 다루는 토픽
 - 
 
-### 강의 슬라이드
-- 
+### 교재 및 자료 
+- 교재: David A. Schmidt, Programming Principles in Java: Architectures and Interfaces [download](http://plasse.hanyang.ac.kr/class/cse216/2014/Notes/textbook.zip)
 
 ### 실습 
 - 
