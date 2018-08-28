@@ -12,7 +12,10 @@
 - 이 강의는 학생들에게 특정 언어를 가르치는 과목(training)이 아니다. 명료하고 효과적으로 생각할 수 있게 하는 프로그래밍 교육(education)을 목표로한다.
 
 ### 다루는 토픽
-- 
+- 재귀와 반복 (recursion & iteration)
+- 속내용 감추기 (procedural & data abstraction)
+- 물건 중심 프로그래밍 (object oriented programming)
+- 예외 상황 관리 (exceptions)
 
 ### 교재 및 자료 
 - 교재: David A. Schmidt, Programming Principles in Java: Architectures and Interfaces [download](http://plasse.hanyang.ac.kr/class/cse216/2014/Notes/textbook.zip)
