@@ -17,8 +17,12 @@
 - 물건 중심 프로그래밍 (object oriented programming)
 - 예외 상황 관리 (exceptions)
 
-### 교재 및 자료 
+### 교재 및 수업자료 
 - 교재: David A. Schmidt, Programming Principles in Java: Architectures and Interfaces [download](http://plasse.hanyang.ac.kr/class/cse216/2014/Notes/textbook.zip)
+
+날짜 | 주제 | 슬라이드
+------------ | -------------| -------------
+9/5 | 강의 소개 | [slide](slides/01-intro.pdf)
 
 ### 실습 
 - 
