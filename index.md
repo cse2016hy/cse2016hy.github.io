@@ -2,6 +2,10 @@
 
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
+### 공지사항 
+- 첫째 주는 실습이 없습니다. 둘째 주 부터 진행됩니다.
+- 2반 실습시간을 금요일 10:00 - 12:00 로 재조정하였습니다.
+
 ### 담당 교수 
 [이우석](http://ropas.snu.ac.kr/~wslee)
 - 연구실: 제3공학관 403호
