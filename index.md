@@ -2,7 +2,10 @@
 
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
-### 공지사항 
+### 공지사항
+- [홍보] [ACM ICPC 프로그래밍 경진대회](http://icpckorea.org/) 참여에 관심있는 학생은
+  소프트웨어학부 16학번 박성우학생에게 문의하세요. 알고리즘 학회
+  영과일에서 [구글 설문지](https://goo.gl/forms/TFH4o1dlJjZPUfnv2)를 통해 신청받고 있습니다. 
 - 첫째 주는 실습이 없습니다. 둘째 주 부터 진행됩니다.
 - 2반 실습시간을 금요일 10:00 - 12:00 로 재조정하였습니다.
 
