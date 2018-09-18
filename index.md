@@ -49,7 +49,7 @@
 ------------- | -------------| -------------
 9/5 | 강의 소개 | [slide](slides/01-intro.pdf)
 9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf)
-9/19 | 부품구조: 클래스와 메소드 1 | [slide]()
+9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf)
 9/26 | 대체휴일 | 
 10/3 |  제어구조 | [slide]()
 10/10 | 반복: 루프와 재귀호출 | [slide]()
