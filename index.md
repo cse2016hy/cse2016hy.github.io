@@ -44,24 +44,24 @@
 - 교재: David A. Schmidt, Programming Principles in Java: Architectures and Interfaces [download](http://plasse.hanyang.ac.kr/class/cse216/2014/Notes/textbook.zip)
 - 부교재: 이충기, 문제 해결을 위한 자바 프로그래밍 [link](https://kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788970508979&orderClick=JAj)
 
-날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드
+날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드 | 기타 강의자료
 ------------- | -------------| -------------
-9/5 | 강의 소개 | [slide](slides/01-intro.pdf)
-9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf)
-9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf)
-9/26 | 대체휴일 | 
-10/3 |  제어구조 | [slide](slides/05-control.pdf)
-10/10 | 반복: 루프와 재귀호출 | [slide]()
-10/17 | 부품구조: 클래스와 메소드 2 | [slide]()
-10/24 | 자료구조 1 | [slide]()
-10/31 | 중간고사 | 
-11/7 | 자료구조 2 | [slide]()
-11/14 | 부품구조: 다형성 1 | [slide]()
-11/21 | 부품구조: 다형성 2 | [slide]()
-11/28 | 프로그램의 복잡도 | [slide]()
-12/5 | 안전한 프로그래밍1 | [slide]()
-12/12 | 안전한 프로그래밍2 | [slide]()
-12/19 | 기말고사 | 
+9/5 | 강의 소개 | [slide](slides/01-intro.pdf)|
+9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf) |
+9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf) |
+9/26 | 대체휴일 | |
+10/3 |  제어구조 | [slide](slides/05-control.pdf) | [mov1](https://youtu.be/THvJGm1_CBk), [mov2](https://youtu.be/BzBfJWMAn5M)
+10/10 | 반복: 루프와 재귀호출 | [slide]() |
+10/17 | 부품구조: 클래스와 메소드 2 | [slide]() |
+10/24 | 자료구조 1 | [slide]() |
+10/31 | 중간고사 | |
+11/7 | 자료구조 2 | [slide]() |
+11/14 | 부품구조: 다형성 1 | [slide]() |
+11/21 | 부품구조: 다형성 2 | [slide]() |
+11/28 | 프로그램의 복잡도 | [slide]() |
+12/5 | 안전한 프로그래밍1 | [slide]() |
+12/12 | 안전한 프로그래밍2 | [slide]() |
+12/19 | 기말고사 |  |
 
 ### 실습 
 - 모든 실습은  [CodeOnWeb](https://erica.codeonweb.com/) 에서 진행한다 (클래스 이름: CSE2016 프로그램 설계 방법론) 
