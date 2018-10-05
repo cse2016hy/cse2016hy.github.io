@@ -51,7 +51,7 @@
 9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf) |
 9/26 | 대체휴일 | |
 10/3 |  제어구조 | [slide](slides/05-control.pdf) | [mov1](https://youtu.be/THvJGm1_CBk), [mov2](https://youtu.be/BzBfJWMAn5M)
-10/10 | 반복: 루프와 재귀호출 | [slide]() |
+10/10 | 반복: 루프와 재귀호출 | [slide](slides/06-iteration.pdf) |
 10/17 | 부품구조: 클래스와 메소드 2 | [slide]() |
 10/24 | 자료구조 1 | [slide]() |
 10/31 | 중간고사 | |
