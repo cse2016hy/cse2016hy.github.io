@@ -53,7 +53,7 @@
 10/3 |  제어구조 | [slide](slides/05-control.pdf) | [mov1](https://youtu.be/THvJGm1_CBk), [mov2](https://youtu.be/BzBfJWMAn5M)
 10/10 | 반복: 루프와 재귀호출 | [slide](slides/06-iteration.pdf) |
 10/17 | 자료구조 1 | [slide](slides/07-array.pdf) |
-10/24 | 부품구조: 클래스와 메소드 2 | [slide]() |
+10/24 | 부품구조: 클래스와 메소드 2 | [slide](slides/08-inheritance.pdf) |
 10/31 | 중간고사 | |
 11/7 | 자료구조 2 | [slide]() |
 11/14 | 부품구조: 다형성 1 | [slide]() |
