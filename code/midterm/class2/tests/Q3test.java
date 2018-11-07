@@ -25,28 +25,28 @@ class SlidePuzzleBoardAnswer {
   }
   private static int binomialCoeff(int n, int k) 
   { 
-	  // Base Cases 
-	  if (k==0 || k==n) 
-	    return 1; 
-	  
-	  // Recur 
-	  return  binomialCoeff(n-1, k-1) + binomialCoeff(n-1, k); 
-	} 
+    // Base Cases 
+    if (k==0 || k==n) 
+      return 1; 
+    
+    // Recur 
+    return  binomialCoeff(n-1, k-1) + binomialCoeff(n-1, k); 
+  } 
   
   public int computePossibleWays(int w) {
-	  int[][] n_shortest = new int[size][size];
-	  n_shortest[0][0] = 1;
-	  int target_row = 0, target_col = 0; 
-	  
-	  for ( int num = 1;  num != size * size;  num = num + 1 ) {
-		  int row = num / size;
+    int[][] n_shortest = new int[size][size];
+    n_shortest[0][0] = 1;
+    int target_row = 0, target_col = 0; 
+    
+    for ( int num = 1;  num != size * size;  num = num + 1 ) {
+      int row = num / size;
           int col = num % size;
-		  if (board[row][col].valueOf() == w) {
-			  target_row = row;
-			  target_col = col;
-		  }
-	  }
-	  return binomialCoeff(target_row + target_col, target_row);
+      if (board[row][col].valueOf() == w) {
+        target_row = row;
+        target_col = col;
+      }
+    }
+    return binomialCoeff(target_row + target_col, target_row);
   }
 }
 
@@ -57,7 +57,7 @@ public class Q3test {
         int target = 15;
         SlidePuzzleBoard b1 = new SlidePuzzleBoard(size);
         SlidePuzzleBoardAnswer b1_answer = new SlidePuzzleBoardAnswer(size);
-    	assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
+      assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
     }
     @Test(timeout=5000)
     public void test2() {
@@ -65,7 +65,7 @@ public class Q3test {
         int target = 13;
         SlidePuzzleBoard b1 = new SlidePuzzleBoard(size);
         SlidePuzzleBoardAnswer b1_answer = new SlidePuzzleBoardAnswer(size);
-    	assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
+      assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
     }
     @Test(timeout=5000)
     public void test3() {
@@ -73,7 +73,7 @@ public class Q3test {
         int target = 9;
         SlidePuzzleBoard b1 = new SlidePuzzleBoard(size);
         SlidePuzzleBoardAnswer b1_answer = new SlidePuzzleBoardAnswer(size);
-    	assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
+      assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
     }
     @Test(timeout=5000)
     public void test4() {
@@ -81,7 +81,7 @@ public class Q3test {
         int target = 17;
         SlidePuzzleBoard b1 = new SlidePuzzleBoard(size);
         SlidePuzzleBoardAnswer b1_answer = new SlidePuzzleBoardAnswer(size);
-    	assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
+      assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
     }
     @Test(timeout=5000)
     public void test5() {
@@ -89,6 +89,6 @@ public class Q3test {
         int target = 34;
         SlidePuzzleBoard b1 = new SlidePuzzleBoard(size);
         SlidePuzzleBoardAnswer b1_answer = new SlidePuzzleBoardAnswer(size);
-    	assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
+      assertTrue(b1.computePossibleWays(target) == b1_answer.computePossibleWays(target));
     }
 }

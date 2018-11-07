@@ -52,22 +52,22 @@ class AccountController
 
     public double[] computeBalancesAfterMonths(int month)
     {
-    	int n_accounts = accounts.length;
+      int n_accounts = accounts.length;
         int i, j, k;
         
         for (k = 0; k < month; k++) {
-        	// deposit interests 
-        	for (i = 0; i < n_accounts; i++) {
-            	double current_balance = accounts[i].getBalance();
+          // deposit interests 
+          for (i = 0; i < n_accounts; i++) {
+              double current_balance = accounts[i].getBalance();
                 if (current_balance < 0.0) accounts[i].withdraw(-1 * current_balance * interest_rate);
                 else accounts[i].deposit(current_balance * interest_rate);
-        	}
-        	// transfer
-        	for (i = 0; i < n_accounts; i++) {
-        		for (j = 0; j < n_accounts; j++) {
-    				accounts[i].withdraw(transfer_info[i][j]);
-        			accounts[j].deposit(transfer_info[i][j]);
-            	}
+          }
+          // transfer
+          for (i = 0; i < n_accounts; i++) {
+            for (j = 0; j < n_accounts; j++) {
+            accounts[i].withdraw(transfer_info[i][j]);
+              accounts[j].deposit(transfer_info[i][j]);
+              }
             }
         }
         return getBalances();
@@ -94,11 +94,11 @@ public class AccountManager {
             accounts[i] = new BankAccount(100);
         }
         for (i = 0; i < 10; i++) {
-        	for (j = i; j < 10; j++) {
-        		if (i != j) {
-        			transfer_info[i][j] = 10;
-        		}
-        	}
+          for (j = i; j < 10; j++) {
+            if (i != j) {
+              transfer_info[i][j] = 10;
+            }
+          }
         }
         AccountController ac = new AccountController(accounts, transfer_info);
         DecimalFormat format = new DecimalFormat("0.##");

@@ -21,7 +21,7 @@ class Card
     count = c;
   }
   public String toString() {
-	  return (suit + ": " + count);
+    return (suit + ": " + count);
   }
   public String getSuit() { return suit; }
   public int getCount() { return count; }
@@ -31,7 +31,7 @@ class CardDeck
 {
   private int last_count = -1;   // the count of the last picked card
   private String last_suit = ""; // the suit of the last picked card
-	
+  
   private int card_count;  // how many cards remain in the deck 
   private Card[] deck = new Card[4 * Card.SIZE_OF_ONE_SUIT];
     // invariant: elements  deck[0]..deck[card_count - 1]  hold cards
@@ -47,18 +47,18 @@ class CardDeck
     * @return a card not used before, or return null, if no cards are left */
   public Card newCard()
   { Card next_card = null;
-  	int index = 0;
+    int index = 0;
     if ( card_count == 0 ) { 
-    	System.out.println("CardDeck error: no more cards"); 
+      System.out.println("CardDeck error: no more cards"); 
     }
     else if (last_suit.length() == 0) { 
-    	index = (int)(Math.random() * card_count);  // randomly choose
+      index = (int)(Math.random() * card_count);  // randomly choose
     }
     else {
-    	for ( int i = 0;  i < card_count;  i = i + 1 )
-    		if (deck[i].getCount() == last_count || deck[i].getSuit().equals(last_suit)) {
-    			index = i;
-    		}	 
+      for ( int i = 0;  i < card_count;  i = i + 1 )
+        if (deck[i].getCount() == last_count || deck[i].getSuit().equals(last_suit)) {
+          index = i;
+        }   
     }
     next_card = deck[index];
     last_suit = next_card.getSuit(); 
@@ -87,13 +87,13 @@ class CardDeck
 }
 
 public class CardDeckManager {
-	public static void main(String args[]) {
-		
-		CardDeck cd = new CardDeck();
-		System.out.println(cd.newCard());
-		System.out.println(cd.newCard());
-		System.out.println(cd.newCard());
-		System.out.println(cd.newCard());
-		
-	}
+  public static void main(String args[]) {
+    
+    CardDeck cd = new CardDeck();
+    System.out.println(cd.newCard());
+    System.out.println(cd.newCard());
+    System.out.println(cd.newCard());
+    System.out.println(cd.newCard());
+    
+  }
 }
