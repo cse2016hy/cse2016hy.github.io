@@ -1,0 +1,34 @@
+Points, Fonts, Images, Layouts, and Events [Figure 10.6]
+
+Object
+ |
+ +-BorderLayout: BorderLayout(), BorderLayout.NORTH, BorderLayout.SOUTH,
+ |               BorderLayout.EAST, BorderLayout.WEST, BorderLayout.CENTER
+ |
+ +-FlowLayout: FlowLayout(), FlowLayout(int), FlowLayout.LEFT,
+ |             FlowLayout.RIGHT, FlowLayout.CENTER
+ |
+ +-GridLayout: GridLayout(int,int)
+ |
+ +-Font: Font(String,int,int), Font.PLAIN, Font.BOLD, Font.ITALIC
+ |
+ +-Point: Point(int,int), translate(int,int)
+ |
+ +-EventObject
+ |  |
+ |  +-AWTEvent [abstract]
+ |  |  |
+ |  |  +-ActionEvent: getActionCommand():String, getSource():Object
+ |  |  |
+ |  |  +-WindowEvent
+ |  |
+ |  +-ListSelectionEvent
+ |
+ +-WindowAdapter [implements WindowListener]
+ |
+ +-Image
+ |
+ +-ImageIcon [implements Icon]: ImageIcon(String), getImage():Image
+ |
+ +-Observable: addObserver(Observer), setChanged(), notifyObservers(),
+               notifyObservers(Object)

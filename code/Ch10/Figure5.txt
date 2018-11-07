@@ -1,0 +1,62 @@
+AWT/Swing hierarchy (partial) [Figure 10.5]
+
+Object
+ |
+ +-Component [abstract]:  setSize(int,int), setVisible(boolean), setFont(Font),
+    |     isShowing():boolean, getLocationOnScreen():Point, setLocation(Point),
+    |     paint(Graphics), repaint(), setForeground(Color),
+    |     setBackground(Color), getGraphics()
+    |
+    +-Container: add(Component), add(Component,Object), setLayout(LayoutManager)
+       |
+       +-Window: pack(), dispose(), addWindowListener(WindowListener)
+       |  |
+       |  +-JFrame: JFrame(), setTitle(String), setJMenuBar(JMenuBar)
+       |            getContentPane():Container
+       |
+       +-JApplet: JApplet(), init(), getParameter(String):String,
+       |          getContentPane():Container, setJMenuBar(JMenuBar)
+       |
+       +-JComponent [abstract]: paintComponent(Graphics)
+          |
+          +-AbstractButton [abstract]: addActionListener(ActionListener),
+          |  |   setEnabled(Boolean), getText():String, setText(String),
+          |  |   setSelected(Boolean), isEnabled():boolean,
+          |  |   isSelected():boolean, doClick()
+          |  |
+          |  +-JButton: JButton(String), JButton(Icon), JButton(String, Icon),
+          |  |   setIcon(Icon)
+          |  |
+          |  +-JMenuItem: JMenuItem(String)
+          |     |
+          |     +-JMenu: JMenu(String), add(Component), addSeparator()
+          |
+          +-JLabel: JLabel(String), getText():String, setText(String)
+          |
+          +-JList: JList(Object[]),getSelectedIndex():int,setSelectedIndex(int),
+          |  getSelectedIndices():int[], setSelectedIndices(int[]),
+          |  setSelectionMode(int), clearSelection(),
+          |  addListSelectionListener(ListSelectionListener) 
+          |
+          +-JMenuBar: JMenuBar(), add(JMenu)
+          |
+          +-JOptionPane: showMessageDialog(Component,Object),
+          |              showConfirmDialog(Component,Object):int,
+          |              showInputDialog(Component,Object):String
+          |
+          +-JPanel: Panel(), Panel(LayoutManager)
+          | 
+          +-JScrollPane: JScrollPane(Component)
+          |
+          +-JTextComponent [abstract]: cut(), paste(), copy(), getText():String,
+             |   setText(String), getSelectionStart():int,
+             |   getSelectionEnd():int, getSelectedText():String,
+             |   replaceSelection(String), getCaretPosition():int,
+             |   setCaretPosition(int), moveCaretPosition(int),
+             |   isEditable():boolean, setEditable(boolean)
+             |
+             +-JTextField: JTextField(String,int), 
+             |             addActionListener(ActionListener)
+             +-JTextArea: JTextArea(String,int,int), insert(String,int)
+                          replaceRange(String,int,int), setLineWrap(boolean)
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Database-Book/|CardGame/|Puzzle/|Database-Bank/" kind="src" path=""/>
+	<classpathentry kind="src" path="CardGame"/>
+	<classpathentry kind="src" path="Database-Bank"/>
+	<classpathentry kind="src" path="Database-Book"/>
+	<classpathentry kind="src" path="Puzzle"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
