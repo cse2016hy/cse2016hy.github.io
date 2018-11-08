@@ -3,7 +3,8 @@
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 공지사항
-- [중간고사 공지] 
+- [중간고사 공지]
+	* [1반 채점결과](https://docs.google.com/spreadsheets/d/1q3kq3K5hFPzoz07JHk581LP09w4MKbbQfD4kAYQ2r1o/edit?usp=sharing)
 	* [2반 채점결과](https://docs.google.com/spreadsheets/d/1sHfSrH0SBPY7F7IYSLCEmEAnv5KKugu0ANE7guaqRYg/edit?usp=sharing)
 	* [공지](https://docs.google.com/document/d/1LSLl8nLiE8CDvxM6PSUYQ5HzlCZv9BlsdHun2aA1Z64/edit?usp=sharing) 참조.
 	* 1반 (금요일 수업반): 10/31 수요일 오전 11시 ~ 오후1시. 장소 4공 PC2실, 4공 412호.
@@ -51,7 +52,7 @@
 - 부교재: 이충기, 문제 해결을 위한 자바 프로그래밍 [link](https://kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788970508979&orderClick=JAj)
 
 날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드 | 기타 강의자료
-------------- | -------------| -------------
+------------- | -------------| ---------------
 9/5 | 강의 소개 | [slide](slides/01-intro.pdf)|
 9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf) |
 9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf) |
@@ -60,7 +61,9 @@
 10/10 | 반복: 루프와 재귀호출 | [slide](slides/06-iteration.pdf) |
 10/17 | 자료구조 1 | [slide](slides/07-array.pdf) |
 10/24 | 부품구조: 클래스와 메소드 2 | [slide](slides/08-inheritance.pdf) |
-10/31 | 중간고사 | | [2반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/answers), [2반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/tests) |
+10/31 | 중간고사 |
+[문제](https://docs.google.com/document/d/1bFQD4lfkCEASEsgUWYIF91zzZYG8lacpFyHbPsNgcP8/edit?usp=sharing)
+| [1반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/answers) [1반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/tests) [2반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/answers), [2반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/tests) |
 11/7 | 부품구조: 다형성 1 | [slide](slides/09-interface.pdf) |
 11/14 | 부품구조: 다형성 2 | [slide]() |
 11/21 | 자료구조 2 | [slide]() |
