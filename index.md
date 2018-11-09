@@ -53,18 +53,17 @@
 - 코드: [link](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/)
 
 날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드 | 기타 강의자료
-------------- | -------------| ---------------
+------------- | -------------| -----------|---------
 9/5 | 강의 소개 | [slide](slides/01-intro.pdf)|
 9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf) |
 9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf) |
-9/26 | 대체휴일 | |
+9/26 | 대체휴일 |  |
 10/3 |  제어구조 | [slide](slides/05-control.pdf) | [mov1](https://youtu.be/THvJGm1_CBk), [mov2](https://youtu.be/BzBfJWMAn5M)
 10/10 | 반복: 루프와 재귀호출 | [slide](slides/06-iteration.pdf) |
 10/17 | 자료구조 1 | [slide](slides/07-array.pdf) |
 10/24 | 부품구조: 클래스와 메소드 2 | [slide](slides/08-inheritance.pdf) |
-10/31 | 중간고사 |
-[문제](https://docs.google.com/document/d/1bFQD4lfkCEASEsgUWYIF91zzZYG8lacpFyHbPsNgcP8/edit?usp=sharing)
-| [1반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/answers) [1반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/tests) [2반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/answers), [2반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/tests) |
+10/31 | 중간고사 | [문제](https://docs.google.com/document/d/1bFQD4lfkCEASEsgUWYIF91zzZYG8lacpFyHbPsNgcP8/edit?usp=sharing)| [1반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/answers) [1반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/tests) |
+          |             |                 | [2반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/answers), [2반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/tests) |
 11/7 | 부품구조: 다형성 1 | [slide](slides/09-interface.pdf) |
 11/14 | 부품구조: 다형성 2 | 위와 동일 |
 11/21 | GUI 및 이벤트 구동 프로그래밍 | [slide](slides/10-GUI.pdf) |
