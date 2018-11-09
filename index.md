@@ -50,6 +50,7 @@
 ### 교재 및 수업자료 
 - 교재: David A. Schmidt, Programming Principles in Java: Architectures and Interfaces [download](http://plasse.hanyang.ac.kr/class/cse216/2014/Notes/textbook.zip)
 - 부교재: 이충기, 문제 해결을 위한 자바 프로그래밍 [link](https://kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788970508979&orderClick=JAj)
+- 코드: [link](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/)
 
 날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드 | 기타 강의자료
 ------------- | -------------| ---------------
