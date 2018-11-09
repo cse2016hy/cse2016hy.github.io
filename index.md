@@ -53,7 +53,7 @@
 - 코드: [link](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/)
 
 날짜 (1반은 해당 주 금요일) | 주제 | 슬라이드 | 기타 강의자료
-------------- | -------------| -----------|---------
+-------------|-------------|-----------|---------
 9/5 | 강의 소개 | [slide](slides/01-intro.pdf)|
 9/12 | 간단한 자바 프로그램, 산술 연산과 변수 | [slide1](slides/02-simple.pdf), [slide2](slides/03-variable.pdf) |
 9/19 | 부품구조: 클래스와 메소드 1 | [slide](slides/04-class.pdf) |
