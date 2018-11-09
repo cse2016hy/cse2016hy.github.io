@@ -1,3 +1,5 @@
+import java.awt.event.WindowEvent;
+
 public interface WindowListener
 { public void windowActivated(WindowEvent e);
   public void windowClosed(WindowEvent e);

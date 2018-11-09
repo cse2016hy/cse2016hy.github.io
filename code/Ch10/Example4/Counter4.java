@@ -1,12 +1,12 @@
 
 
 /** Counter  holds a counter */
-class Counter
+class Counter4
 { private int count;   // the count
 
   /** Constructor  Counter  initializes the counter
     * @param start - the starting value for the count  */
-  public Counter(int start)
+  public Counter4(int start)
   { count = start; }
 
   /** increment  updates  count. */

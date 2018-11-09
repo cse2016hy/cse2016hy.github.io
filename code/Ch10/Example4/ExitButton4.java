@@ -2,11 +2,11 @@
 import javax.swing.*;
 import java.awt.event.*;
 /** ExitButton defines a controller that terminates an application */
-public class ExitButton extends JButton implements ActionListener
+public class ExitButton4 extends JButton implements ActionListener
 {
   /** Constructor ExitButton builds the controller
     * @param my_label - the label for the controller's button  */
-  public ExitButton(String my_label)
+  public ExitButton4(String my_label)
   { super(my_label); 
     addActionListener(this);
   }

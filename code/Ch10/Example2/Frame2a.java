@@ -4,12 +4,12 @@ import javax.swing.*;
 /** Frame2a shows a frame with whose label displays the number of times
     its button is pushed */
 class Frame2a extends JFrame implements ActionListener
-{ private Counter count;  // address of model object
+{ private Counterl count;  // address of model object
   private JLabel label = new JLabel("count = 0");  // label for the frame
 
   /** Constructor  Frame2a creates a frame with a label and button
     * @param c - the model object, a counter */
-  public Frame2a(Counter c)
+  public Frame2a(Counterl c)
   { count = c;
     Container cp = getContentPane();
       cp.setLayout(new FlowLayout());
@@ -31,7 +31,7 @@ class Frame2a extends JFrame implements ActionListener
   }
 
   public static void main(String[] args)
-  { Counter model = new Counter(0);     // create the model
+  { Counterl model = new Counterl(0);     // create the model
     Frame2a view = new Frame2a(model);  // create the controller and view
   }
 }

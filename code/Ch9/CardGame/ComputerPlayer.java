@@ -6,8 +6,9 @@ public class ComputerPlayer extends CardPlayer
   { super(max_cards); }  // invoke constructor in superclass
 
   public boolean wantsACard()
-  { Card[] what_i_have = showCards();
-    ..statements go here that examine  what_i_have  and calculate a decision..
-    return decision;
+  { int sum = 0;
+	for(int i=0; i<card_count; i++) 
+		sum += my_hand[i].countOf();
+	return sum < 15;
   }
 }

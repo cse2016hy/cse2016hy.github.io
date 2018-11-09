@@ -1,9 +1,9 @@
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-public class ExitButton extends JButton implements ActionListener
+public class ExitButtonl extends JButton implements ActionListener
 {
-  public ExitButton(String my_label)
+  public ExitButtonl(String my_label)
   { super(my_label); 
     addActionListener(this);
   }

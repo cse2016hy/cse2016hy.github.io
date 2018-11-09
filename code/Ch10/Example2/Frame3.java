@@ -6,10 +6,10 @@ class Frame3 extends Frame2c
 {
   /** Constructor  Frame3 creates a frame with a label and button
     * @param c - the model object, a counter */
-  public Frame3(Counter c)
+  public Frame3(Counterl c)
   { super(c);  // tell superclass to construct most of the frame
     Container cp = getContentPane();
-    cp.add(new ExitButton("Exit"));  // add another button-controller
+    cp.add(new ExitButton4("Exit"));  // add another button-controller
 //	addWindowListener(new ExitController());
     setTitle("Example 3");
     setSize(250, 60); 
@@ -17,7 +17,7 @@ class Frame3 extends Frame2c
   }
 
   public static void main(String[] args)
-  { Counter model = new Counter(0);
+  { Counterl model = new Counterl(0);
     Frame3 view = new Frame3(model);
   }
 }

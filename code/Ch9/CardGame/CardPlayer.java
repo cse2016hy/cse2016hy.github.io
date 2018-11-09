@@ -1,7 +1,7 @@
 /** CardPlayer models an abstract form of card player */
 public abstract class CardPlayer implements CardPlayerBehavior
-{ private Card[] my_hand;  // the player's cards
-  private int card_count;  // how many cards are held in the hand
+{ Card[] my_hand;  // the player's cards
+  int card_count;  // how many cards are held in the hand
 
   /** CardPlayer builds the player
     * @param max_cards - the maximum cards the player can hold.  */

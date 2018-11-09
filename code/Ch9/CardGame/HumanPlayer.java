@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 /** HumanPlayer models a human who plays cards */
 public class HumanPlayer extends CardPlayer
 { /** HumanPlayer builds the player

@@ -32,7 +32,7 @@ public abstract class AbsTempFrame extends JFrame
       JPanel p4 = new JPanel(new FlowLayout());
       p4.add(compute_controller);
       p4.add(new ResetButton("Reset", this));  // see Figure 26
-      p4.add(new ExitButton("Bye"));           // see Figure 16
+      p4.add(new ExitButton4("Bye"));           // see Figure 16
     cp.add(p4);
     resetFields();  // initialize the view
     setSize(240, 160);

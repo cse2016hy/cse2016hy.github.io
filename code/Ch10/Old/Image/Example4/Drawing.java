@@ -3,9 +3,9 @@ import java.awt.*;
 import javax.swing.*;
 /** Drawing creates a panel that displays a small drawing */
 public class Drawing extends JPanel
-{ private Counter count;  // the model object
+{ private Counterl count;  // the model object
 
-  public Drawing(Counter model)
+  public Drawing(Counterl model)
   { count = model;
     setSize(200, 80);
   }

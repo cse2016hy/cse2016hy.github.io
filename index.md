@@ -65,9 +65,9 @@
 [문제](https://docs.google.com/document/d/1bFQD4lfkCEASEsgUWYIF91zzZYG8lacpFyHbPsNgcP8/edit?usp=sharing)
 | [1반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/answers) [1반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class1/tests) [2반 정답](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/answers), [2반 채점 코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/midterm/class2/tests) |
 11/7 | 부품구조: 다형성 1 | [slide](slides/09-interface.pdf) |
-11/14 | 부품구조: 다형성 2 | [slide]() |
-11/21 | 자료구조 2 | [slide]() |
-11/28 | 프로그램의 복잡도 | [slide]() |
+11/14 | 부품구조: 다형성 2 | 위와 동일 |
+11/21 | GUI 및 이벤트 구동 프로그래밍 | [slide](slides/10-GUI.pdf) |
+11/28 | 자료구조 2 | [slide]() |
 12/5 | 안전한 프로그래밍1 | [slide]() |
 12/12 | 안전한 프로그래밍2 | [slide]() |
 12/19 | 기말고사 |  |

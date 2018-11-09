@@ -16,7 +16,7 @@ public class ListFrame extends JFrame
     cp.add(sp);                   // add the scrolling list to the pane
       JPanel p = new JPanel(new GridLayout(2,1)); 
       p.add(new ListButton("Go", counters, this));  // see Figure 27
-      p.add(new ExitButton("Quit"));                // see Figure 16
+      p.add(new ExitButton4("Quit"));                // see Figure 16
     cp.add(p);
     update();  // initialize the view of the list
     setTitle("ListExample"); 

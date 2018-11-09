@@ -12,10 +12,12 @@ public class ColorButton extends JButton implements ActionListener
   }
 
   /** actionPerformed handles a click */
+  @Override
   public void actionPerformed(ActionEvent e)
   { Color c = view.getColor();
     if ( c == Color.red )
          { view.setColor(Color.blue); }
     else { view.setColor(Color.red); }
   }
+
 }

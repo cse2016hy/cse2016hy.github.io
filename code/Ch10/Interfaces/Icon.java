@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public interface Icon
 { public int getIconHeight();
   public int getIconWidth();
