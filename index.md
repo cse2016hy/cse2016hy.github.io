@@ -3,6 +3,7 @@
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 공지사항
+- [프로젝트 공지](slides/project_notice.pdf)
 - [중간고사 공지]
 	* [1반 채점결과](https://docs.google.com/spreadsheets/d/1q3kq3K5hFPzoz07JHk581LP09w4MKbbQfD4kAYQ2r1o/edit?usp=sharing)
 	* [2반 채점결과](https://docs.google.com/spreadsheets/d/1sHfSrH0SBPY7F7IYSLCEmEAnv5KKugu0ANE7guaqRYg/edit?usp=sharing)
