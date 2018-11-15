@@ -40,6 +40,7 @@ public class PuzzleFrame extends JFrame
                        button[i][j].setText("" + r[i][j].valueOf()); }
                 else { button[i][j].setBackground(Color.black);
                        button[i][j].setText( "" );
+//                       System.out.println(i + ", " + j);
                      }
               }
         }
