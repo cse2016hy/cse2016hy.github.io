@@ -1,7 +1,11 @@
+package payroll;
+
 /** Payroll prints a file of paychecks from an input payroll file. */
 public class Payroll
 { public static void main(String[] args)
-  { DialogReader starter = new DialogReader();
+  { 
+	System.out.println(System.getProperty("user.dir"));
+	DialogReader starter = new DialogReader();
     String in_name = starter.readString("Please type input payroll name:");
     String out_name = starter.readString("Please type output payroll name:");
     if ( in_name != null  &&  out_name != null )

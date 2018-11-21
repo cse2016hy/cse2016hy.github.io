@@ -1,3 +1,4 @@
+package payroll;
 import java.io.*;
 import java.util.*;
 /** PayrollReader reads records from a sequential file.  The records have
@@ -20,6 +21,18 @@ public class PayrollReader
           }
   }
 
+//  public boolean unsafe_getNextRecord() {
+//		if(!infile.ready()) return false;
+//		String line = infile.readLine();
+//		StringTokenizer t = new StringTokenizer(line, "|");
+//		String s = t.nextToken().trim();
+//		if(s.equals(END_OF_FILE) || t.countTokens() != 2) return false;
+//		name = s;
+//		hours = new Integer(t.nextToken().trim()).intValue();
+//		payrate = new Integer(t.nextToken().trim()).intValue();
+//		return true;
+//	}
+  
   /** getNextRecord  attempts to read a new payroll record.
     * @return whether another record was read and is ready to process */
   public boolean getNextRecord()
@@ -34,10 +47,8 @@ public class PayrollReader
                     if ( ! s.equals(END_OF_FILE) )    // finished?
                        { if ( t.countTokens() == 2 )  // hours and payrate?
                             { name = s;
-                              hours = new Integer
-                                          (t.nextToken().trim()).intValue();
-                              payrate = new Double
-                                          (t.nextToken().trim()).doubleValue();
+                              hours = new Integer(t.nextToken().trim()).intValue();
+                              payrate = new Double(t.nextToken().trim()).doubleValue();
                               result = true;
                             }
                          else { throw new RuntimeException(line); }

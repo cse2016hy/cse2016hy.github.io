@@ -1,3 +1,4 @@
+package payroll;
 import java.awt.*;
 import javax.swing.*;
 /** DialogReader accepts user input from a dialog window */

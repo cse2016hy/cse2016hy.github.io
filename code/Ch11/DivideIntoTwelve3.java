@@ -4,7 +4,7 @@ public class DivideIntoTwelve3
 { public static void main(String[] args)
   { int i = readAnInt();
     try { JOptionPane.showMessageDialog(null, "Answer is " + (12 / i)); }
-    catch(RuntimeException e)
+    catch(ArithmeticException e)
       { JOptionPane.showMessageDialog(null,
                  "Error in input: " + i + ". Restart program.");
       }
@@ -16,7 +16,7 @@ public class DivideIntoTwelve3
   { int num;
     String s = JOptionPane.showInputDialog("Please type an int:");
     try { num = new Integer(s).intValue(); }
-    catch(RuntimeException e)
+    catch(NumberFormatException e)
         { JOptionPane.showMessageDialog(null,
                          "Input " + s + " not an int. Try again!");
           num = readAnInt();  // restart with a recursive invocation!

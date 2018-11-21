@@ -1,19 +1,19 @@
-import java.io.*;
-/** CopyFile copies the contents of an input file, f,
-  * whose name is supplied by the user, into an output file, f.out  */
-public class CopyFile
-{ public static void main(String[] args) throws IOException
-  { DialogReader reader = new DialogReader();
-    String f = reader.readString("Input filename, please: ");
-	// construct the view object that reads from the input file:
-    BufferedReader infile = new BufferedReader(new FileReader(f));
-    // construct the view object that writes to the output file:
-    PrintWriter outfile = new PrintWriter(new FileWriter(f + ".out"));
-    while ( infile.ready() )   // are there more lines to read in infile?
-          { String s = infile.readLine(); 
-            outfile.println(s); 
-          }
-    infile.close(); 
-    outfile.close(); 
-  }
+import java.io.*; import javax.swing.*;
+
+public class CopyFile {
+	public static void main(String[] args) throws IOException {
+		JFileChooser chooser = new JFileChooser();
+		chooser.setDialogTitle("복사할 파일을 선택하세요.");
+		int result = chooser.showDialog(null, "Copy");
+		if(result != JFileChooser.APPROVE_OPTION) 
+			System.exit(0);
+		String f = chooser.getSelectedFile().toString();
+		BufferedReader infile = new BufferedReader(new FileReader(f));
+		PrintWriter outfile = new PrintWriter(new FileWriter(f + ".out"));
+		while (infile.ready()) {
+			outfile.println(infile.readLine());
+		}
+		infile.close();
+		outfile.close();
+	}
 }

@@ -4,7 +4,7 @@ public class DivideIntoTwelve2
 { public static void main(String[] args)
   { int i = readAnInt();
     try { JOptionPane.showMessageDialog(null, "Answer is " + (12 / i)); }
-    catch(RuntimeException e)
+    catch(ArithmeticException e)
       { JOptionPane.showMessageDialog(null,
                  "Error in input: " + i + ". Restart program.");
       }
