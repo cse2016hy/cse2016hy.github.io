@@ -4,7 +4,7 @@ package payroll;
 public class Payroll
 { public static void main(String[] args)
   { 
-	System.out.println(System.getProperty("user.dir"));
+//	System.out.println(System.getProperty("user.dir"));
 	DialogReader starter = new DialogReader();
     String in_name = starter.readString("Please type input payroll name:");
     String out_name = starter.readString("Please type output payroll name:");
