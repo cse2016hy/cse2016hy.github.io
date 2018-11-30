@@ -8,6 +8,6 @@ public class Output1
     outfile.println(" you?");
     outfile.println("  " + (47+2));
     outfile.close();  
-//    throw (new RuntimeException("error!"));
+    throw (new RuntimeException("error!"));
   }
 }

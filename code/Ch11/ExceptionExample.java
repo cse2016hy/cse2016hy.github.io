@@ -3,8 +3,9 @@ import java.io.*;
 public class ExceptionExample { 
 	public ExceptionExample() { } 
 	public static void f() { 
-		try { g(); } 
-		catch (RuntimeException e) { System.out.println("caught at f: " + e.getMessage()); } 
+		//try 
+		{ g(); } 
+		//catch (RuntimeException e) { System.out.println("caught at f: " + e.getMessage()); } 
 		System.out.println("f completes"); 
 	} 
 	public static void g() { 	

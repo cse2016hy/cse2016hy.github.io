@@ -8,5 +8,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="/Users/woosuk/course/randoop/randoop-all-4.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

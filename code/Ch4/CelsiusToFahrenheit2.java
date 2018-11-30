@@ -13,5 +13,5 @@ public class CelsiusToFahrenheit2
     System.out.println("For Celsius degrees " + c + ",");
     System.out.println("Degrees Fahrenheit = " + formatter.format(f));
   }
-}
+} 
 
