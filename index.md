@@ -3,6 +3,9 @@
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 공지사항
+- [기말고사 공지](https://docs.google.com/document/d/1c7CUje9EzVCv7Wi3AqWenp1fRmkot2gjaSsRihv-WFI/edit?usp=sharing)
+	* 1반 (금요일 수업반): 12/19 수요일 오전 11시 ~ 오후1시. 장소 4공 PC2실, 4공 412호.
+	* 2반 (수요일 수업반): 12/19 수요일 오후 2시 반 ~ 오후 4시 반. 장소 3공 318호, 4공 412호. 
 - 12월 5일 수요일 오후 3시 2반 수업은 학부 요청으로 핀테크 세미나로 대체합니다. 수업시간에 컨퍼런스홀 101호로 가시면 됩니다.
 - [프로젝트 공지](slides/project_notice.pdf)
 - [중간고사 공지]
