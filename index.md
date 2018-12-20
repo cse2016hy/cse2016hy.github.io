@@ -4,7 +4,7 @@
 
 ### 공지사항
 - [기말고사 공지]
-	* 기말고사 결과가 나왔습니다. 이의제기 기한은 이번 주 토요일 (12월 22일) 까지 입니다 (이의제기는 이메일로). 
+	* 기말고사 결과가 나왔습니다. 이의제기 기한은 이번 주 일요일 (12월 23일) 까지 입니다 (이의제기는 이메일로). 
 	* 정답은 채점코드에 포함되어 있습니다. 
 	* [1반 채점결과](https://docs.google.com/spreadsheets/d/1BeOqK6Qs8zyUcU3NSRttxciGF070cWgWfIlX96HqFmU/edit?usp=sharing)
 	* [2반 채점결과](https://docs.google.com/spreadsheets/d/1I5G-_nnvpyKBLYy2436WhtGFpZ7S_HhV_cSlqsM6oHw/edit?usp=sharing)
