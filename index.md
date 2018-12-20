@@ -3,7 +3,15 @@
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 공지사항
-- [기말고사 공지](https://docs.google.com/document/d/1c7CUje9EzVCv7Wi3AqWenp1fRmkot2gjaSsRihv-WFI/edit?usp=sharing)
+- [기말고사 공지]
+	* 기말고사 결과가 나왔습니다. 이의제기 기한은 이번 주 토요일 (12월 22일) 까지 입니다. 이메일로 연락주세요. 
+	* [1반 채점결과](https://docs.google.com/spreadsheets/d/1BeOqK6Qs8zyUcU3NSRttxciGF070cWgWfIlX96HqFmU/edit?usp=sharing)
+	* [2반 채점결과](https://docs.google.com/spreadsheets/d/1I5G-_nnvpyKBLYy2436WhtGFpZ7S_HhV_cSlqsM6oHw/edit?usp=sharing)
+	* [1반 채점코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/finals/class1/tests)
+	* [2반 채점코드](https://github.com/cse2016hy/cse2016hy.github.io/tree/master/code/finals/class2/tests)
+	* [1반 문제](https://docs.google.com/document/d/1BpE2fRjsNTtjyviyARxipXlFR5ulb8NDGKwS-5KYPKM/edit?usp=sharing)
+	* [2반 문제](https://docs.google.com/document/d/1EGK7VIfJ2KQz_ugua1qCPr6Yr82LEmMshDkjt1cyGsM/edit?usp=sharing)
+	* [공지](https://docs.google.com/document/d/1c7CUje9EzVCv7Wi3AqWenp1fRmkot2gjaSsRihv-WFI/edit?usp=sharing)
 	* 1반 (금요일 수업반): 12/19 수요일 오전 11시 ~ 오후1시. 장소 4공 PC2실, 4공 412호.
 	* 2반 (수요일 수업반): 12/19 수요일 오후 2시 반 ~ 오후 4시 반. 장소 3공 318호, 4공 412호. 
 - 12월 5일 수요일 오후 3시 2반 수업은 학부 요청으로 핀테크 세미나로 대체합니다. 수업시간에 컨퍼런스홀 101호로 가시면 됩니다.
