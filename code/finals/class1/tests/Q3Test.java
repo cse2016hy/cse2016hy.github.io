@@ -28,7 +28,11 @@ public class Q3Test {
 	@Test(timeout=5000)
 	public void test2() {
 		int[] arr = {1, 2, 3, 4, 5};
-		assertEquals(Q3.search(-1, arr), Q3answer.search(-1, arr));
+//		assertEquals(Q3.search(-1, arr), Q3answer.search(-1, arr));
+		try {
+		int answer = Q3.search(-1, arr);
+		assertTrue(answer < 0 ||  answer > 4);
+	    } catch (Exception e) { assertTrue(true); }
 	}
 	
 	@Test(timeout=5000)
