@@ -3,6 +3,7 @@
 프로그램 설계 방법론 홈페이지: https://cse2016hy.github.io / [소프트웨어학부](http://sw.hanyang.ac.kr) / [한양대학교 ERICA 캠퍼스](http://hanyang.ac.kr)
 
 ### 공지사항
+- [프로젝트 결과](https://docs.google.com/spreadsheets/d/1gM2f_PBXc1vxQNGwobQoNsPUkOI4ZjWThX_AVQJovcA/edit#gid=0)가 나왔습니다. 이의 제기는 12월 25일까지입니다. 
 - [기말고사 공지]
 	* 기말고사 결과가 나왔습니다. 이의제기 기한은 이번 주 일요일 (12월 23일) 까지 입니다 (이의제기는 이메일로). 
 	* 정답은 채점코드에 포함되어 있습니다. 
