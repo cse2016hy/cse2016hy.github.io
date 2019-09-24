@@ -1,36 +1,19 @@
-import java.awt.*;
-import javax.swing.*;
+package BankConsole;
+
 import java.text.*;
+
+import javax.swing.JOptionPane;
 /** BankWriter writes bank transactions */
-public class BankWriter extends JPanel
+public class BankWriter
 { 
-  private int WIDTH = 300;  // width and depth of displayed window
-  private int DEPTH = 200;
   private BankAccount bank;  // the address of the bank account displayed
   private String last_transaction = ""; // the transaction that is displayed
 
   /** Constructor BankAccount initializes the writer
     * @param title - the title bar's text
     * @param b - the (address of) the bank account displayed by the Writer */
-    public BankWriter(String title, BankAccount b)
-	  { bank = b;
-	    JFrame my_frame = new JFrame();
-		my_frame.getContentPane().add(this);
-	    my_frame.setTitle(title);
-	    my_frame.setSize(WIDTH, DEPTH);
-	    my_frame.setBackground(Color.white);
-	    my_frame.setVisible(true);
-	  }
-
-  public void paintComponent(Graphics g)
-  { g.setColor(Color.white);
-    g.fillRect(0, 0, WIDTH, DEPTH);  // "erase" the window
-    g.setColor(Color.black);
-    int text_margin = 50;
-    int text_baseline = 50;
-    g.drawString(last_transaction, text_margin, text_baseline);
-    g.drawString("Current balance = $" + unconvert(bank.getBalance()),
-                 text_margin, text_baseline + 20);
+  public BankWriter(BankAccount b)
+  { bank = b;
   }
 
   /** unconvert reformats a cents amount into a dollars,cents string */
@@ -44,13 +27,14 @@ public class BankWriter extends JPanel
     * @param amount - the amount of the transaction */
   public void showTransaction(String message, int amount)
   { last_transaction = message + " " + unconvert(amount);
-  	this.repaint();
+  	System.out.println(bank.account_name + ": " + last_transaction);
+  	System.out.println("Current balance = $" + unconvert(bank.getBalance()));
   }
 
   /** showTransaction displays the result of a bank transation
     * @param message - the transaction */
   public void showTransaction(String message)
   { last_transaction = message;
-    this.repaint();
+  System.out.println(bank.account_name + ": " + last_transaction);
   }
 }

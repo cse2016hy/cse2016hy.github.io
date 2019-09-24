@@ -18,5 +18,6 @@ public static void main(String[] args)
            JOptionPane.showMessageDialog(null,
                    "ConvertHours error: negative input " + hours);
          }
+    System.exit(0);
   }
 }

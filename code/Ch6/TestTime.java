@@ -4,8 +4,8 @@ public class TestTime
 {
   public static void main(String[] args)
   { GregorianCalendar time = new GregorianCalendar();
-    String s = twelveHourClock(15, 99);
-//    String s = twelveHourClock(15, 30);
+//    String s = twelveHourClock(15, 99);
+    String s = twelveHourClock(0, 30);
     System.out.println(s);
   }
 
