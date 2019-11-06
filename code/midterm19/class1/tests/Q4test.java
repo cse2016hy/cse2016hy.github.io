@@ -21,31 +21,31 @@ public class Q4test {
 	@Test(timeout=1200000)
 	public void test1() {
 		int n = 1; 
-		assertTrue(Q4.newfibonacci(1) == Q4Answer.newfibonacci(1)); 
+		assertTrue(Q4.newfibonacci(n) == Q4Answer.newfibonacci(n)); 
 	}
 	
 	@Test(timeout=1200000)
 	public void test2() {
 		int n = 2; 
-		assertTrue(Q4.newfibonacci(1) == Q4Answer.newfibonacci(1)); 
+		assertTrue(Q4.newfibonacci(n) == Q4Answer.newfibonacci(n)); 
 	}
 	
 	@Test(timeout=1200000)
 	public void test3() {
 		int n = 3; 
-		assertTrue(Q4.newfibonacci(1) == Q4Answer.newfibonacci(1)); 
+		assertTrue(Q4.newfibonacci(n) == Q4Answer.newfibonacci(n)); 
 	}
 	
 	@Test(timeout=1200000)
 	public void test4() {
 		int n = 20; 
-		assertTrue(Q4.newfibonacci(1) == Q4Answer.newfibonacci(1)); 
+		assertTrue(Q4.newfibonacci(n) == Q4Answer.newfibonacci(n)); 
 	}
 	
 	@Test(timeout=1200000)
 	public void test5() {
 		int n = 30; 
-		assertTrue(Q4.newfibonacci(1) == Q4Answer.newfibonacci(1)); 
+		assertTrue(Q4.newfibonacci(n) == Q4Answer.newfibonacci(n)); 
 	}
 
 }
