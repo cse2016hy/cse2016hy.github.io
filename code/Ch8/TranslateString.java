@@ -60,5 +60,6 @@ public class TranslateString {
     	String encoded = m.encode(original);
     	String decoded = m.decode(encoded);
     	JOptionPane.showMessageDialog(null, "원본: " + original + "\n암호화: " + encoded + "\n복호화: " + decoded);
+    	System.exit(0);
     }
 }
