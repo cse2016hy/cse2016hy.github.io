@@ -1,92 +1,62 @@
-/** Database  implements a database of records */
-public class Database
-{ private Record[] base;   // the collection of records
-  private int count;       // how many records are stored in the database
-                           // invariant:  0 <= item_count <= base.length
-  private int NOT_FOUND = -1; // code used to denote when a record not found
 
-  /** Constructor  Database  initializes the database
-    * @param initial_size - the size of the database */
-  public Database(int initial_size)
-  { if ( initial_size > 0 )
-         { base = new Record[initial_size]; }
-    else { base = new Record[1]; }
-    count = 0;
-  }
 
-  /** locationOf is a helper method that searches base for a record
-    * whose key is k.
-	* If found, the index of the record is returned,
-	* else NOT_FOUND is returned. */
-  private int locationOf(Key k)
-  { int result = NOT_FOUND;
-    boolean found = false;
-    int i = 0;
-    while ( !found  &&  i != base.length )
-          { if ( base[i] != null  &&  base[i].keyOf().equals(k) )
-                 { found = true;
-                   result = i;
-                 }
-            else { i = i+1; }
-          }
-    return result;
-  }
+public class Database {
+	private Record[] base;
+	
+	public Database(int initial_size) {
+		base = new Record[initial_size]; 
+	}
 
-  /** find  locates a record in the database based on a key
-    * @param key - the key of the desired record
-    * @return (the address of) the desired record;
-    *  return  null if record not found.  */
-  public Record find(Key k)
-  { Record answer = null;
-    int index = locationOf(k);
-    if ( index != NOT_FOUND )
-       { answer = base[index]; }
-    return answer;
-  }
+	public Record find(Key k) {
+		for (int i = 0; i < base.length; i++) {
+			if (base[i] != null && base[i].getKey().equals(k)) {
+				return base[i]; 
+			}
+		}
+		return null; 
+	}
+	
+	public boolean insert(Record r) {
+		if (find(r.getKey()) == null) {
+			for (int i = 0; i < base.length; i++) {
+				if (base[i] == null) {
+					base[i] = r; 
+					return true; 
+				}
+			}
+			Record[] new_base = new Record[base.length * 2];
+			for (int i = 0; i < base.length; i++) {
+				new_base[i] = base[i]; 
+			}
+			new_base[base.length] = r;
+			base = new_base;
+			return true; 
+		}
+		else {
+			return false; 
+		}
+	}
 
-  /** insert inserts a new record into the database.
-    * @param r - the record
-    * @return true, if record added; return false if record not added because
-    *   another record with the same key already exists in the database */
-  public boolean insert(Record r)
-  { boolean success = false;
-    if ( locationOf(r.keyOf()) == NOT_FOUND )  // r not already in base?
-       { // find an empty element in base for insertion of r:
-	     boolean found_empty_place = false;
-         int i = 0;
-         while ( !found_empty_place  &&  i != base.length )
-               // so far, all of  base[0]..base[i-1]  are occupied
-               { if ( base[i] == null )   // is this element empty?
-                      { found_empty_place = true; }
-                 else { i = i+1; }
-               }
-         if ( found_empty_place )
-              { base[i] = r; }
-         else { // array is full!  So, create a new one to hold more records:
-                Record[] temp = new Record[base.length * 2];
-                for ( int j = 0;  j != count;  j = j+1 )
-                    // copying contents of  base  into  temp
-                    { temp[j] = base[j]; }
-                base = temp;   // change  base  to hold address of  temp
-                base[count] = r;   // insert  r  in first free element
-              }
-         count = count + 1;    // remember that we added a record
-         success = true;
-       }
-    return success;
-  }
-
-  /** delete removes a record in the database based on a key
-    * @param key - the record's key (identification)
-    * @return true, if record is found and deleted; return false otherwise  */
-  public boolean delete(Key k)
-  { boolean result = false;
-    int index = locationOf(k);
-    if ( index != NOT_FOUND )
-       { base[index] = null;
-         count = count - 1;  // remember that we deleted a record
-         result = true;
-       }
-    return result;
-  }
+	public boolean delete(Key k) {
+		for (int i = 0; i < base.length; i++) {
+			if (base[i] != null && base[i].getKey().equals(k)) {
+				base[i] = null;
+				return true; 
+			}
+		}
+		return false; 
+	}
+	
+	public static void main(String[] args) {
+		Database db = new Database(100) ;
+//		Record r1 = new BookRecord(new CodeKey("a", 82), "lee", "intro to java", 1987); 
+//		Record r2 = new BookRecord(new CodeKey("b", 83), "kim", "intro to python", 1988); 
+		Record r1 = new StudentRecord(new IntegerKey(20220000), "chulsu lee"); 
+		Record r2 = new StudentRecord(new IntegerKey(20221111), "jieun kim");
+		db.insert(r1);
+		db.insert(r2);
+		System.out.println(db.find(r1.getKey()));  
+		System.out.println(db.find(r2.getKey()));  
+	}
+	
 }
