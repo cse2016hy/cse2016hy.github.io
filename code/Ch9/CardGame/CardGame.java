@@ -5,7 +5,7 @@ public class CardGame {
 		CardPlayer p1 = new HumanPlayer(20);
 		CardPlayer p2 = new ComputerPlayer(20);
 		CardDeck cd = new CardDeck(); 
-		while (p1.wantsACard() && p2.wantsACard()) {
+		while (p1.wantsACard() || p2.wantsACard()) {
 			Card c; 
 			c = cd.newCard(); 
 			p1.receiveCard(c);
