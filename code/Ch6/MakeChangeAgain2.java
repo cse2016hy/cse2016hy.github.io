@@ -13,16 +13,15 @@ public class MakeChangeAgain2
 	  { JOptionPane.showMessageDialog(null, "MakeChangeAgain error: negative dollors: " + dollars);
 	    ok = false; // the error negates accceptability
 	  }
-	if (ok) // dollars are acceptable, so consider cents:
-	  { if (cents < 0)
-	      { JOptionPane.showMessageDialog(null, "MakeChangeAgain error: negative cents: " + cents);
-	        ok = false;
-		  }
-		if (cents > 99)
-		  { JOptionPane.showMessageDialog(null, "MakeChangeAgain error: bad cents: " + cents);
-		    ok = false;
-		  }
+	if (cents < 0)
+      { JOptionPane.showMessageDialog(null, "MakeChangeAgain error: negative cents: " + cents);
+        ok = false;
 	  }
+	if (cents > 99)
+	  { JOptionPane.showMessageDialog(null, "MakeChangeAgain error: bad cents: " + cents);
+	    ok = false;
+	  }
+	  
 	if (ok) // dollars and cents are acceptable, so compute answer:
       { int money = (dollars * 100) + cents;
         System.out.println( "quarters = " + (money/25) );

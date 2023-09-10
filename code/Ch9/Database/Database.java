@@ -49,10 +49,10 @@ public class Database {
 	
 	public static void main(String[] args) {
 		Database db = new Database(100) ;
-//		Record r1 = new BookRecord(new CodeKey("a", 82), "lee", "intro to java", 1987); 
-//		Record r2 = new BookRecord(new CodeKey("b", 83), "kim", "intro to python", 1988); 
-		Record r1 = new StudentRecord(new IntegerKey(20220000), "chulsu lee"); 
-		Record r2 = new StudentRecord(new IntegerKey(20221111), "jieun kim");
+		Record r1 = new BookRecord(new CodeKey("a", 82), "lee", "intro to java", 1987); 
+		Record r2 = new BookRecord(new CodeKey("b", 83), "kim", "intro to python", 1988); 
+//		Record r1 = new StudentRecord(new IntegerKey(20220000), "chulsu lee"); 
+//		Record r2 = new StudentRecord(new IntegerKey(20221111), "jieun kim");
 		db.insert(r1);
 		db.insert(r2);
 		System.out.println(db.find(r1.getKey()));  

@@ -48,12 +48,14 @@ public class Main {
   public static void main(String[] args) {
     BankAccount[] accounts = new BankAccount[100];
     accounts[1] = new BankAccount(10); 
-    accounts[75] = new BankAccount(200); 
+    accounts[75] = new BankAccount(200);
+    
+    accounts[99] = new BankAccount(200);
+    
     accounts[1].deposit(5); 
     for (int i = 0 ; i < accounts.length; i++) {
-    	if (accounts[i] != null) {
-    		System.out.println("account id : " + i + " - balance = " + accounts[i].getBalance()); 
-    	}
+    	if (accounts[i] != null)
+    		System.out.println("account id : " + i + " - balance = " + accounts[i].getBalance());	 
     }
   }
 }

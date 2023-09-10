@@ -10,6 +10,7 @@ class PersonTest3 {
 }
 class StudentTest3 extends PersonTest3 {
 	public StudentTest3() {
+		super("a");
 		this.setName("Student");
 	}
 }

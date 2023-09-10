@@ -3,13 +3,25 @@ public class TestFactorial
 {
   public static void main(String[] args)
   { 
-	
+	// n : 3부터 시작해서 증가
+	// n_2 : fib(n-2)
+	// n_1 : fib(n-1)
+	// fib(1)  fib(2)  fib(3)  fib(4)  fib(5) ...
+	//                         n_2     n_1
+	//               
+	// n = 3 
+	// n_1 = fib(2) = 1 
+	// n_2 = fib(1) = 1
+	// n = 4 
+	// n_1 = fib(3) = n_1 + n_2 
+	// n_2 = fib(2) = n_1 
+	  
 	for ( int i = 0;  i <= 20;  i = i+1 )
     // factorial: invariant: have printed the factorials for  0 ..upto.. (i-1)
     { 
 	  System.out.println( i + "! = " +  factorial(i) ); 
     // fibonacci: invariant: have printed the fibonaccis for  0 ..upto.. (i-1)	
-//	  System.out.println( "fib(" + i + ") = " +  Fibonacci(i) ); 
+	  System.out.println( "fib(" + i + ") = " +  Fibonacci(i) ); 
 	}
   }
 

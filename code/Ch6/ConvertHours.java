@@ -1,4 +1,8 @@
-import javax.swing.*;
+import java.util.GregorianCalendar;
+
+import javax.swing.JOptionPane;
+
+
 /** ConvertHours translates a time in hours into its equivalent in seconds.
   *  Input: a nonnegative integer
   *  Output: the converted time into seconds.  */
@@ -6,8 +10,13 @@ public class ConvertHours
 { 
 public static void main(String[] args)
   { 
-	String s = JOptionPane.showInputDialog("Type hours, an integer:"); 
-	int hours = Integer.parseInt(s);
+	//"24"
+	String s = null;
+	
+	System.out.println(s.charAt(0));
+	
+	// 24
+	int hours = Integer.parseInt(s); // new Integer(s).intValue();
     if ( hours >= 0 )
          { // at this point, hours is nonnegative, so compute seconds:
            int seconds = hours * 60 * 60;

@@ -1,8 +1,8 @@
 import javax.swing.*;
 /** DivideIntoTwelve  reads an int and divides it into 12  */
-public class DivideIntoTwelve
-{ public static void main(String[] args)
-  { int i = readAnInt();
+public class DivideIntoTwelve { 
+  public static void main(String[] args) { 
+	int i = readAnInt();
     JOptionPane.showMessageDialog(null, "Answer is " + (12 / i));
     System.out.println("Finished.");
   }

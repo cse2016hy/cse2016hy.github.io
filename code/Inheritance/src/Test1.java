@@ -23,7 +23,7 @@ public class Test1 {
 		Object o = new Faculty();
 		String n = s.getName();
 		p = s;
-		int m = ((Student)p).getID();
+		int m = p.getID();
 		f = q;
 		o = s; 
 

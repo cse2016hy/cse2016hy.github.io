@@ -1,7 +1,7 @@
 /**  MakeChange calculates the change for a dollars-and-cents amount.
   *  input: two program arguments: a dollars amount and a cents amount
   *  output: the listing of the needed coins  */
-public class MakeChange
+public class MakeChange1
 {
   public static void main(String[] args)
   { String dollars = args[0]; 

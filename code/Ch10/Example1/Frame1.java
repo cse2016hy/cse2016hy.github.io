@@ -11,7 +11,7 @@ public class Frame1 extends JFrame
     c.add(label);
     c.add(button);
     setTitle("Example1");
-    setSize(200, 60);			// pack();
+    setSize(200, 60);			
     setVisible(true);
   }
   

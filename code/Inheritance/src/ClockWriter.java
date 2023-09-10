@@ -9,9 +9,7 @@ import javax.swing.JPanel;
 public class ClockWriter extends JPanel {
   	
 	int width = 200;
-	GregorianCalendar time = new GregorianCalendar();
 	public ClockWriter() {
-//	  	int width = 200;
 	  	JFrame f = new JFrame();      // 프레임 생성
 		f.getContentPane().add(this); // 자신을 프레임에 부착
 		f.setTitle("Clock");          // 프레임 제목 설정 
@@ -22,7 +20,7 @@ public class ClockWriter extends JPanel {
 	  int width = 200;
 	  int gap = 50;
 	  int d = 100;
-//	  GregorianCalendar time = new GregorianCalendar(); 
+	  GregorianCalendar time = new GregorianCalendar(); 
 	  int s_angle = 90 - (time.get(Calendar.SECOND) * 6);
 	  int m_angle = 90 - (time.get(Calendar.MINUTE) * 6);
 	  int h_angle = 90 - (time.get(Calendar.HOUR) * 30);

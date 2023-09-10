@@ -15,7 +15,6 @@ public class CardGame {
 				System.out.println("Player 1 gets " + c.suitOf() + ":" + c.countOf());
 			}
 			if (p2_wants_card && (p2_wants_card = p2.wantsACard())) {
-				p2_wants_card = p2.wantsACard();
 				c = cd.newCard();
 				p2.receiveCard(c);
 				System.out.println("Player 2 gets " + c.suitOf() +  ":" + c.countOf());
@@ -34,7 +33,7 @@ public class CardGame {
 		if (sum1 <= 21 && (Math.abs(sum1 - 21) < Math.abs(sum2 - 21) || sum2 > 21))
 			System.out.println("Player 1 Wins!");
 		else if (sum2 <= 21 && (Math.abs(sum2 - 21) < Math.abs(sum1 - 21) || sum1 > 21))
-			System.out.println("Player 1 Wins!");
+			System.out.println("Player 2 Wins!");
 		else 
 			System.out.println("No one wins!");
 

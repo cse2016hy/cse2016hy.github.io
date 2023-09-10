@@ -13,12 +13,13 @@ public class BounceController
 
   /** runAnimation  runs the animation by means of an internal clock */
   public void runAnimation()
-  { int time_unit = 5;    // time unit for each step of the animation
+  { int time_unit = 15;    // time unit for each step of the animation
     int painting_delay = 20;  // how long to delay between repaintings
     while ( true )
-          { delay(painting_delay);
+          { 
+    	delay(painting_delay);
             ball.move(time_unit); 
-            System.out.println(ball.xPosition() + ", " + ball.yPosition());
+//            System.out.println(ball.xPosition() + ", " + ball.yPosition());
             writer.repaint();  // redisplay box and ball
           }
   }

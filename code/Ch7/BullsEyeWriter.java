@@ -39,7 +39,7 @@ public class BullsEyeWriter extends JPanel
   public void paintBullsEye(int x_position, int y_position,
                             int rings, int size, Graphics g)
   { int count = 0;                  // no rings painted just yet
-    int diameter = size;            // diameter of next ring to paint
+    int diameter = size - offset;            // diameter of next ring to paint
     int ring_width = size / rings;  // set width for each ring
     Color color = Color.red;
     while ( count != rings )
@@ -61,7 +61,7 @@ public class BullsEyeWriter extends JPanel
   }
 
   public static void main(String[] args)
-  { new BullsEyeWriter(7, 140);
+  { new BullsEyeWriter(7, 300);
   }
 
 }

@@ -14,7 +14,7 @@ public class CountButton extends JButton implements ActionListener
   { super(my_label);  // attach label to the button in the superclass
     view = my_view;
     model = my_model;
-    addActionListener((java.awt.event.ActionListener) this); // attach this very object as the ``listener''
+    addActionListener(this); // attach this very object as the ``listener''
   }
 
   /** actionPerformed handles a push of this button

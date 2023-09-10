@@ -39,18 +39,10 @@ public class MovingBall
 	  x_pos = x_pos + (x_velocity * time_units);
 	  if ( container.inHorizontalContact(x_pos) ) { 
 		  x_velocity = -x_velocity;
-		  if (container.sizeOf() <= x_pos) 
-			  x_pos = 2 * container.sizeOf() - x_pos; 
-		  else // x_pos <= 0 
-			  x_pos = -x_pos;
 	  }
 	  y_pos = y_pos + (y_velocity * time_units);
 	  if ( container.inVerticalContact(y_pos) ) { 
 		  y_velocity = -y_velocity;
-		  if (container.sizeOf() <= y_pos) 
-			  y_pos = 2 * container.sizeOf() - y_pos; 
-		  else // y_pos <= 0 
-			  y_pos = -y_pos;
 	}
   }
 }

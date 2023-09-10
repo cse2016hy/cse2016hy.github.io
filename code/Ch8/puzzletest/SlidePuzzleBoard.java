@@ -5,7 +5,7 @@ public class SlidePuzzleBoard {
 	private PuzzlePiece[][] board; // the array that holds the pieces
 	private int empty_row;  
 	private int empty_col;
-	// representation invariant:  board[empty_row][empty_col] == null
+	// invariant:  board[empty_row][empty_col] == null
 
 	public SlidePuzzleBoard(int s) {
 		size = s; 

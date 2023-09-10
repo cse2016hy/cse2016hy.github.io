@@ -4,7 +4,7 @@ import javax.swing.*;
 public class PuzzleFrame extends JFrame
 { private SlidePuzzleBoard board;   // the model; see Fig.11, Ch.8
   private int size;                 // the board's size
-  private int button_size = 60;     // width/height of each button
+  private int button_size = 100;     // width/height of each button
   private PuzzleButton[][] button;  // the buttons on the face of the view
 
   /** Constructor PuzzleFrame builds the view
@@ -23,8 +23,7 @@ public class PuzzleFrame extends JFrame
                 cp.add(button[i][j]);
               }
         }
-    update();  // initialize the pieces with their numbers
-    addWindowListener(new ExitController()); // activates X-button; see Fig. 15 
+    update();  // initialize the pieces with their numbers 
     setTitle("PuzzleFrame");
     setSize(size * button_size + 10,  size * button_size + 20);
     setVisible(true);
@@ -35,13 +34,18 @@ public class PuzzleFrame extends JFrame
   { PuzzlePiece[][] r = board.contents();  //  get contents of the puzzle
     for ( int i = 0; i != size; i = i+1 )  // redraw all the buttons
         { for ( int j = 0; j != size; j = j+1 )
-              { if ( r[i][j] != null )
-                     { button[i][j].setBackground(Color.white);
-                       button[i][j].setText("" + r[i][j].valueOf()); }
-                else { button[i][j].setBackground(Color.black);
-                       button[i][j].setText( "" );
-//                       System.out.println(i + ", " + j);
-                     }
+              { if ( r[i][j] != null ) { 
+            	  button[i][j].setBackground(Color.white);
+                  button[i][j].setText("" + r[i][j].valueOf());
+                  button[i][j].setOpaque(true);
+                  button[i][j].setBorderPainted(true);
+                }
+                else { 
+                  button[i][j].setBackground(Color.black);
+                  button[i][j].setText( "" );
+                  button[i][j].setOpaque(true);
+                  button[i][j].setBorderPainted(false);
+                }
               }
         }
   }

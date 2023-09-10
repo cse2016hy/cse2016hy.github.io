@@ -18,9 +18,9 @@ public class PuzzleButton extends JButton implements ActionListener
   /** actionPerformed processes a move of the slide puzzle */
   @Override
   public void actionPerformed(ActionEvent evt)
-  { String s = getText();  // get the number on the face of this button
+  { String s = this.getText();  // get the number on the face of this button
     if ( !s.equals("") )   // it's not the blank space, is it?
-       { boolean ok = puzzle.move(new Integer(s).intValue()); // try to move
+       { boolean ok = puzzle.move(Integer.parseInt(s)); // try to move
          if ( ok ) { view.update(); }
        }
   }

@@ -8,14 +8,14 @@ public class MakeChangeAgain
 { 
   public static void main(String[] args)
   { 
-	String s = JOptionPane.showInputDialog("Type dollars, an integer:"); 
+	String s = JOptionPane.showInputDialog("Type dollars, an integer:");
 	int dollars = Integer.parseInt(s);
     if (dollars < 0)
 	  { 
     	JOptionPane.showMessageDialog(null, "MakeChangeAgain error: negative dollors: " + dollars);
 	    throw new RuntimeException("MakeChangeAgain error: negative dollors: " + dollars);
 	  }
-	else // dollars amount is acceptable, so process cents amount:
+//	else // dollars amount is acceptable, so process cents amount:
 	  { 
 		s = JOptionPane.showInputDialog("Type cents, an integer:");
 		int cents = Integer.parseInt(s);

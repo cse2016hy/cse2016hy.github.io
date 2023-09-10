@@ -2,7 +2,6 @@ class PersonTest {
 	private String name;
 	public PersonTest(String n) {
 		this.name = n;
-		super();		
 		System.out.print("#1");
 	}
 }

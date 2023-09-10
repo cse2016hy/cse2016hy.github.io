@@ -7,7 +7,7 @@ public class Output1
     outfile.print("How are"); 
     outfile.println(" you?");
     outfile.println("  " + (47+2));
-    outfile.close();  
-//    throw (new RuntimeException("error!"));
+    outfile.close();  // resource leak!
+    throw (new RuntimeException("error!"));
   }
 }

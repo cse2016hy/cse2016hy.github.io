@@ -10,6 +10,7 @@ public class ListFrame extends JFrame
   public ListFrame(Counter2[] model)
   { counters = model;
     items = new JList(counters);  // embed the model into a JList
+//    items.addListSelectionListener((ListSelectionListener) listener); 
     JScrollPane sp = new JScrollPane(items);  // attach a scroll bar
     Container cp = getContentPane();
     cp.setLayout(new GridLayout(2,1));

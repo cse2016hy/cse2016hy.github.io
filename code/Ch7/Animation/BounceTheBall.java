@@ -3,8 +3,8 @@ import java.awt.*;
 public class BounceTheBall
 { public static void main(String[] args)
   { // construct the model objects:
-    int box_size = 100;
-    int balls_radius = 2;
+    int box_size = 600;
+    int balls_radius = 40;
     Box box = new Box(box_size);
     // place the ball not quite in the box's center; about 3/5 position:
     MovingBall ball = new MovingBall((int)(box_size / 3.0),

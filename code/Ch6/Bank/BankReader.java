@@ -25,8 +25,14 @@ public class BankReader
 	String s = input_line.substring(1, input_line.length());
 	s = s.trim();  // trim the leading blanks from substring
 	if (s.length() > 0) // is there a number to return?
-	     { double dollars_cents = new Double(s).doubleValue();
-	       answer = (int)(dollars_cents * 100); // convert to all cents
+	     { 
+			try {
+				double dollars_cents = new Double(s).doubleValue();
+				answer = (int)(dollars_cents * 100); // convert to all cents
+			}
+			catch (Exception e) {
+				answer = 0;
+			}
 	     }
 	else { JOptionPane.showMessageDialog(null, "BankReader error: no number for transaction --- zero used");
 	     }

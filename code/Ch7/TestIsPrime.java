@@ -1,6 +1,6 @@
 public class TestIsPrime
 { public static void main(String[] args)
-  { int i = 0;
+  { int i = 17;
     System.out.println( isPrime(i));
   }
 
@@ -14,7 +14,7 @@ public static int isPrime(int n)
   if ( n < 2 )
        { System.out.println("isPrime error: invalid argument " + n ); }
   else { boolean item_found = false;  
-         int current = n/2;  // start search here for possible integer divisor
+         int current = n-1;  // start search here for possible integer divisor
          while ( !item_found  &&  current > 1 )
                // invariant: 
                // (1) item_found == false  means  n  is not divisible
