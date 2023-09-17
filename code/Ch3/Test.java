@@ -12,10 +12,6 @@ public class Test
 //	
 //	double d = 1.5;
 //	int i = (int)d; // ok
-
-//	String s = "abc";
-//	System.out.println((char)('a' + 1));
-//	System.out.println(s.substring(0, 2));
 	
 //	boolean b = true;
 //	System.out.println(b * 5); // data type error

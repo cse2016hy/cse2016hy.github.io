@@ -6,8 +6,8 @@ public class MakeChange1
   public static void main(String[] args)
   { String dollars = args[0]; 
     String cents = args[1];
-    int money = (100 * new Integer(dollars).intValue())
-             + new Integer(cents).intValue(); // the starting total, in cents
+    int money = (100 * Integer.parseInt(dollars))
+             + Integer.parseInt(cents); // the starting total, in cents
     System.out.println( "quarters = " + (money/25) );
     money = money % 25;
     System.out.println( "dimes = " + (money/10) );

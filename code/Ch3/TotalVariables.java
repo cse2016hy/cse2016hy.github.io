@@ -4,9 +4,9 @@
 public class TotalVariables
 { public static void main(String[] args)
   { int quarters = 9;
-    int dimes = 2;
+    int dimes = 8;
     int nickels = 0;
-    int pennies = 6;
+    int pennies = 10;
     
 //    System.out.println("For these quantities of coins:");
 //    System.out.print("Quarters = "); System.out.println(quarters);

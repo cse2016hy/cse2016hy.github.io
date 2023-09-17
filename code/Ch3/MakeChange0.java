@@ -3,8 +3,8 @@
 public class MakeChange0
 { public static void main(String[] args)
   { 
-	int dollars = 7;
-    int cents = 78;
+	int dollars = 3;
+    int cents = 46;
     int money = (dollars * 100) + cents;
     
     System.out.println("quarters = " + (money / 25));
